@@ -1,36 +1,37 @@
 /* eslint-disable */
-import { BsCodeSlash, BsDatabaseCheck, BsCube } from "react-icons/bs";
-import { FaLaptopCode, FaFigma, FaServer, FaBug } from "react-icons/fa";
+import { BiPencil } from "react-icons/bi";
+import { BsCodeSlash } from "react-icons/bs";
+import { FaCameraRetro, FaVideo, FaTabletAlt, FaRegNewspaper } from "react-icons/fa";
 
 export const servicesData = [
     {
         id: 1,
-        title: 'Desarrollo Web Full Stack',
-        icon: <FaLaptopCode />
+        title: 'Desarrollo Web & Software',
+        icon: <BsCodeSlash />
     },
     {
         id: 2,
-        title: 'Diseño UI / UX',
-        icon: <FaFigma />
+        title: 'Diseño UI / UX & Prototipado',
+        icon: <BiPencil />
     },
     {
         id: 3,
-        title: 'Desarrollo de APIs REST',
-        icon: <FaServer />
+        title: 'Diseño 3D & Modelado',
+        icon: <FaTabletAlt />
     },
     {
         id: 4,
-        title: 'Diseño y Base de Datos',
-        icon: <BsDatabaseCheck />
+        title: 'Documentación Técnica',
+        icon: <FaRegNewspaper />
     },
     {
         id: 5,
-        title: 'Prototipado y Modelado 3D',
-        icon: <BsCube />
+        title: 'Fotografía de Producto',
+        icon: <FaCameraRetro />
     },
     {
         id: 6,
-        title: 'Pruebas y Depuración de Código',
-        icon: <FaBug />
+        title: 'Edición de Video',
+        icon: <FaVideo />
     },
 ]
