@@ -1,7 +1,6 @@
 /* eslint-disable */
-import { BsCodeSlash, BsDatabaseCheck, BsLayers, BsBoxSeam } from "react-icons/bs";
+import { BsCodeSlash, BsDatabaseCheck, BsCube } from "react-icons/bs";
 import { FaLaptopCode, FaFigma, FaServer, FaBug } from "react-icons/fa";
-import { MdOutlineDesignServices } from "react-icons/md";
 
 export const servicesData = [
     {
@@ -27,7 +26,7 @@ export const servicesData = [
     {
         id: 5,
         title: 'Prototipado y Modelado 3D',
-        icon: <BsBoxSeam />
+        icon: <BsCube />
     },
     {
         id: 6,
@@ -35,7 +34,3 @@ export const servicesData = [
         icon: <FaBug />
     },
 ]
-
-// Uncomment your required service.
-// Couldn't find the required services? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
-// You can also add on your own 😉.
