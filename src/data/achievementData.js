@@ -1,43 +1,21 @@
 export const achievementData = {
-    bio : "Putting quantified achievements on a resume is great, but I just don’t work with hard numbers. I have no data to support the quality of my work. If you have lots of relevant experience, the heading statement of your resume will be a summary.",
+    bio : "A lo largo de mi formación académica y proyectos personales, he participado en el desarrollo, validación y despliegue de soluciones tecnológicas, aplicando estándares de calidad y usabilidad.",
     achievements : [
         {
             id : 1,
-            title : 'Google Cloud certification',
-            details : 'Google Cloud certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1573141597928-403fcee0e056?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
+            title : 'Prototipado e Investigación de Usabilidad',
+            details : 'Evaluación de experiencia de usuario (UX/UMUX) y pruebas de rendimiento en plataformas académicas e interfaces de software.',
+            date : '2026',
+            field : 'UI/UX & Testing',
+            image : 'https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1050&q=80'
         },
         {
             id : 2,
-            title : 'AWS Certification',
-            details : 'Validate technical skills and cloud expertise to grow your career and business.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
-        },
-        {
-            id : 3,
-            title : 'Professional Data Engineer Certification',
-            details : 'Professional Data Engineers enable data-driven decision making by collecting, transforming, and publishing data.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            title : 'Desarrollo de Software y APIs REST',
+            details : 'Construcción y despliegue de soluciones web integrando backend en Python/Flask con bases de datos relacionales y frontend reactivo.',
+            date : '2026',
+            field : 'Software Engineering',
+            image : 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1050&q=80'
         }
-
     ]
 }
-
-
-// Do not remove any fields.
-// Leave it blank instead as shown below.
-
-/*
-
-export const achievementData = {
-    bio : "",
-    achievements : []
-}
-
-*/

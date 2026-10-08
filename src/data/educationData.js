@@ -1,23 +1,30 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Marble Hills Middle School',
-        course: 'Higher Secondary Education',
-        startYear: '2007',
-        endYear: '2015'
+        institution: 'Colegio Alerce',
+        course: 'Educación Primaria',
+        startYear: '2011',
+        endYear: '2017'
     },
     {
         id: 2,
-        institution: 'Somerset School of Science',
-        course: 'Bachelor of Technology',
-        startYear: '2015',
-        endYear: '2019'
+        institution: 'INAM',
+        course: 'Educación Secundaria',
+        startYear: '2017',
+        endYear: '2020'
     },
     {
         id: 3,
-        institution: 'Hawking University, Cambridge',
-        course: 'Master of Technology',
-        startYear: '2019',
-        endYear: 'Present'
+        institution: 'Universidad Tecmilenio',
+        course: 'Bachillerato / Preparatoria',
+        startYear: '2020',
+        endYear: '2023'
     },
+    {
+        id: 4,
+        institution: 'Universidad de Sonora',
+        course: 'Ingeniería en Sistemas de la Información',
+        startYear: '2023',
+        endYear: 'Presente'
+    }
 ]

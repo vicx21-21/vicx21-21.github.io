@@ -1,9 +1,10 @@
 import resume from '../assets/pdf/resume.pdf'
+import fotoPerfil from '../assets/png/foto.png'
 
 export const headerData = {
-    name: 'Jane Doe',
-    title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
-    image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
+    name: 'Victoria Vargas',
+    title: "Estudiante de Ingeniería en Sistemas",
+    desciption: "Apasionada por el desarrollo de software, diseño de aplicaciones web y creación de interfaces intuitivas. Enfocada en construir soluciones tecnológicas eficientes y continuar impulsando proyectos de ingeniería.",
+    image: fotoPerfil,
     resumePdf: resume
 }
